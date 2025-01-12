@@ -1,1 +1,1 @@
-# super-mega-ultra
+# SuperMegaUltra
