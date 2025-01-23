@@ -1,4 +1,4 @@
-Copyright 12.01.2025 SuperMegaUltra Valeriy Egorov (https://github.com/hofaschen/supermegaultra).
+Copyright 2025 The Elastre Project Authors (https://github.com/hofaschen/elastre).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://openfontlicense.org
 
