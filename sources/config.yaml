@@ -1,0 +1,46 @@
+sources:
+  - Elastre.glyphs
+
+familyName: Elastre
+
+outputDir: ../fonts
+vfDir: $outputDir/variable
+ttDir: $outputDir/ttf
+otDir: $outputDir/otf
+woffDir: $outputDir/webfonts
+
+autohintTTF: true
+autohintOTF: false
+buildVariable: true
+buildStatic: true
+buildTTF: true
+buildOTF: true
+
+stat:
+  "Elastre[MORF,wdth].ttf":
+    - name: Width
+      tag: wdth
+      values:
+        - name: Regular
+          value: 100
+          linkedValue: 200
+          flags: 2
+        - name: Expanded
+          value: 125
+        - name: Extra Expanded
+          value: 150
+        - name: Ultra Expanded
+          value: 200
+    - name: Ink Trap
+      tag: MORF
+      values:
+        - name: Regular Inkt
+          value: 0
+          linkedValue: 100
+          flags: 2
+        - name: Expanded Inkt
+          value: 0
+        - name: Extra Expanded Inkt
+          value: 0
+        - name: Ultra Expanded
+          value: 0
