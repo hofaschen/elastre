@@ -5,7 +5,6 @@ familyName: Elastre
 
 outputDir: ../fonts
 vfDir: $outputDir/variable
-ttDir: $outputDir/ttf
 otDir: $outputDir/otf
 woffDir: $outputDir/webfonts
 
@@ -13,7 +12,7 @@ autohintTTF: true
 autohintOTF: false
 buildVariable: true
 buildStatic: true
-buildTTF: true
+buildTTF: false
 buildOTF: true
 
 stat:
@@ -23,24 +22,16 @@ stat:
       values:
         - name: Regular
           value: 100
-          linkedValue: 200
-          flags: 2
         - name: Expanded
           value: 125
         - name: Extra Expanded
           value: 150
         - name: Ultra Expanded
           value: 200
-    - name: Ink Trap
+    - name: Inktrap
       tag: MORF
       values:
-        - name: Regular Inkt
+        - name: No Inktrap
           value: 0
-          linkedValue: 100
-          flags: 2
-        - name: Expanded Inkt
-          value: 0
-        - name: Extra Expanded Inkt
-          value: 0
-        - name: Ultra Expanded
-          value: 0
+        - name: Inktrap
+          value: 100
