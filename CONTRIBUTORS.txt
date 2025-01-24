@@ -9,3 +9,4 @@
 # Names should be added to this file as:
 # Name <email address>
 
+Valeriy Egorov (valeriy.hfmn@gmail.com)
