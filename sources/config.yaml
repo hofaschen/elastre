@@ -1,6 +1,10 @@
 sources:
   - Elastre.glyphs
 
+axisOrder:
+    - wdth
+    - MORF
+
 familyName: Elastre
 
 outputDir: ../fonts
@@ -35,3 +39,37 @@ stat:
           value: 0
         - name: Inktrap
           value: 100
+
+statFormat4:
+      - name: Regular
+        location:
+          wdth: 100
+          MORF: 0
+      - name: Regular Inktrap
+        location:
+          wdth: 100
+          MORF: 100
+      - name: Expanded
+        location:
+          wdth: 125
+          MORF: 0
+      - name: Expanded Inktrap
+        location:
+          wdth: 125
+          MORF: 100
+      - name: Extra Expanded
+        location:
+          wdth: 150
+          MORF: 0
+      - name: Extra Expanded Inktrap
+        location:
+          wdth: 150
+          MORF: 100
+      - name: Ultra Expanded
+        location:
+          wdth: 200
+          MORF: 0
+      - name: Ultra Expanded Inktrap
+        location:
+          wdth: 200
+          MORF: 100
