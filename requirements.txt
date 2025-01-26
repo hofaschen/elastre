@@ -1,3 +1,2 @@
 gftools
-fontmake
 fontbakery
