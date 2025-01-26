@@ -1,4 +1,5 @@
-env
+myenv
 *(Autosaved)*
 build.ninja
 instance_ufos
+.DS_Store
