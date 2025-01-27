@@ -280,7 +280,7 @@ Axis = Width;
 Location = 100;
 },
 {
-Axis = "Ink Trap";
+Axis = Inktrap;
 Location = 0;
 }
 );
@@ -348,7 +348,7 @@ Axis = Width;
 Location = 200;
 },
 {
-Axis = "Ink Trap";
+Axis = Inktrap;
 Location = 0;
 }
 );
@@ -460,7 +460,7 @@ Axis = Width;
 Location = 100;
 },
 {
-Axis = "Ink Trap";
+Axis = Inktrap;
 Location = 100;
 }
 );
@@ -524,7 +524,7 @@ Axis = Width;
 Location = 200;
 },
 {
-Axis = "Ink Trap";
+Axis = Inktrap;
 Location = 100;
 }
 );
