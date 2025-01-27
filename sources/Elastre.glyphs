@@ -42,7 +42,6 @@ value = (
 },
 {
 name = "gasp Table";
-value = {
 "2" = 10;
 "65535" = 15;
 "8" = 7;
