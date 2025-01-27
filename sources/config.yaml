@@ -3,73 +3,62 @@ sources:
 
 axisOrder:
     - wdth
-    - MORF
+    - INKT
 
 familyName: Elastre
 
 outputDir: ../fonts
 vfDir: $outputDir/variable
-otDir: $outputDir/otf
 woffDir: $outputDir/webfonts
+ttDir: $outputDir/ttf
 
 autohintTTF: true
-autohintOTF: false
 buildVariable: true
 buildStatic: true
-buildTTF: false
-buildOTF: true
+buildTTF: true
+buildOTF: false
 
 stat:
-  "Elastre[MORF,wdth].ttf":
+  Elastre[INKT,wdth].ttf:
     - name: Width
       tag: wdth
       values:
-        - name: Regular
+        - name: Super
           value: 100
-        - name: Expanded
-          value: 125
-        - name: Extra Expanded
+        # flags: 2
+        - name: Mega
           value: 150
-        - name: Ultra Expanded
+        - name: Ultra
           value: 200
     - name: Inktrap
-      tag: MORF
+      tag: INKT
       values:
-        - name: No Inktrap
-          value: 0
         - name: Inktrap
           value: 100
 
 statFormat4:
-      - name: Regular
+      - name: Super
         location:
           wdth: 100
-          MORF: 0
-      - name: Regular Inktrap
+          INKT: 0
+        # flags: 2
+      - name: Super Inktrap
         location:
           wdth: 100
-          MORF: 100
-      - name: Expanded
-        location:
-          wdth: 125
-          MORF: 0
-      - name: Expanded Inktrap
-        location:
-          wdth: 125
-          MORF: 100
-      - name: Extra Expanded
+          INKT: 100
+      - name: Mega
         location:
           wdth: 150
-          MORF: 0
-      - name: Extra Expanded Inktrap
+          INKT: 0
+      - name: Mega Inktrap
         location:
           wdth: 150
-          MORF: 100
-      - name: Ultra Expanded
+          INKT: 100
+      - name: Ultra
         location:
           wdth: 200
-          MORF: 0
-      - name: Ultra Expanded Inktrap
+          INKT: 0
+      - name: Ultra Inktrap
         location:
           wdth: 200
-          MORF: 100
+          INKT: 100

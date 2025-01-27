@@ -8,7 +8,7 @@ tag = wdth;
 },
 {
 name = Inktrap;
-tag = MORF;
+tag = INKT;
 }
 );
 classes = (
@@ -41,16 +41,9 @@ value = (
 );
 },
 {
-name = "gasp Table";
-"2" = 10;
-"65535" = 15;
-"8" = 7;
-};
-},
-{
 name = "Axis Mappings";
 value = {
-MORF = {
+INKT = {
 0 = 0;
 100 = 100;
 };
@@ -311,7 +304,7 @@ over = -41;
 pos = -512;
 }
 );
-name = Regular;
+name = Super;
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 1;
@@ -427,7 +420,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Expanded";
+name = Ultra;
 },
 {
 axesValues = (
@@ -491,7 +484,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Regular Inktrap";
+name = "Super Inktrap";
 },
 {
 axesValues = (
@@ -599,7 +592,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Expanded Inktrap";
+name = "Ultra Inktrap";
 }
 );
 glyphs = (
@@ -75836,11 +75829,11 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "Elastre[MORF,wdth]";
+value = "Elastre[INKT,wdth]";
 },
 {
-name = Autohint;
-value = 1;
+name = "Variable Font Origin";
+value = m01;
 }
 );
 name = Regular;
@@ -75853,25 +75846,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
-value = 1;
-}
-);
-name = Regular;
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
 },
 {
-axesValues = (
-125,
-0
+Axis = Inktrap;
+Location = 0;
+}
 );
-customParameters = (
+},
 {
-name = Autohint;
+name = fileName;
+value = "Elastre-Super";
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
-name = Expanded;
-widthClass = 7;
+name = Super;
 },
 {
 axesValues = (
@@ -75880,12 +75876,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 150;
+},
+{
+Axis = Inktrap;
+Location = 0;
+}
+);
+},
+{
+name = fileName;
+value = "Elastre-Mega";
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
-name = "Extra Expanded";
-widthClass = 8;
+name = Mega;
 },
 {
 axesValues = (
@@ -75894,12 +75906,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 200;
+},
+{
+Axis = Inktrap;
+Location = 0;
+}
+);
+},
+{
+name = fileName;
+value = "Elastre-Ultra";
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
-name = "Ultra Expanded";
-widthClass = 9;
+name = Ultra;
 },
 {
 axesValues = (
@@ -75908,65 +75936,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
+name = "Axis Location";
+value = (
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Inktrap;
+Location = 100;
+}
+);
+},
+{
+name = fileName;
+value = "ElastreInktrap-Super";
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Elastre Inktrap";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Regular Inktrap";
-}
-);
-}
-);
-},
-{
-axesValues = (
-125,
-100
-);
-customParameters = (
-{
-name = Autohint;
-value = 1;
-}
-);
-name = Expanded;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Elastre Inktrap";
-}
-);
-},
-{
-key = variableStyleNames;
-values = (
-{
-language = dflt;
-value = "Expanded Inktrap";
-}
-);
-}
-);
-widthClass = 7;
+name = "Super Inktrap";
 },
 {
 axesValues = (
@@ -75975,32 +75966,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
-value = 1;
-}
-);
-name = "Extra Expanded";
-properties = (
+name = "Axis Location";
+value = (
 {
-key = familyNames;
-values = (
+Axis = Width;
+Location = 150;
+},
 {
-language = dflt;
-value = "Elastre Inktrap";
+Axis = Inktrap;
+Location = 100;
 }
 );
 },
 {
-key = variableStyleNames;
-values = (
+name = fileName;
+value = "ElastreInktrap-Mega";
+},
 {
-language = dflt;
-value = "Extra Expanded Inktrap";
+name = "Use Typo Metrics";
+value = 1;
 }
 );
-}
-);
-widthClass = 8;
+name = "Mega Inktrap";
 },
 {
 axesValues = (
@@ -76009,32 +75996,28 @@ axesValues = (
 );
 customParameters = (
 {
-name = Autohint;
-value = 1;
-}
-);
-name = "Ultra Expanded";
-properties = (
+name = "Axis Location";
+value = (
 {
-key = familyNames;
-values = (
+Axis = Width;
+Location = 200;
+},
 {
-language = dflt;
-value = "Elastre Inktrap";
+Axis = Inktrap;
+Location = 100;
 }
 );
 },
 {
-key = variableStyleNames;
-values = (
+name = fileName;
+value = "ElastreInktrap-Ultra";
+},
 {
-language = dflt;
-value = "Ultra Expanded Inktrap";
+name = "Use Typo Metrics";
+value = 1;
 }
 );
-}
-);
-widthClass = 9;
+name = "Ultra Inktrap";
 }
 );
 kerningLTR = {
@@ -79274,5 +79257,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 474;
+versionMinor = 0;
 }
