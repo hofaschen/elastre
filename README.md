@@ -1,6 +1,13 @@
 # Elastre Typeface
 Elastre is a modern-looking typeface with `wdth` and `INKT` axis.
 
+## Variable Font Axes
+
+Axis | Tag | Range | Default | Static Instances
+--- | --- | --- | --- | ---
+Inktrap | INKT | 0 to 100 | 0 | Super Inktrap, Mega Inktrap, Ultra Inktrap
+Width | wdth | 100 to 200 | 100 | Super, Mega, Ultra
+
 ## Building Elastre
 
 1. At the root of your local clone `cd path/to/local/clone`, create a virtual environment: `python3 -m venv myenv`.
@@ -9,14 +16,7 @@ Elastre is a modern-looking typeface with `wdth` and `INKT` axis.
 4. Navigate to the `sources` directory and from the terminal, run: `gftools builder config.yaml`.
 5. Done! You will find the fonts in the `fonts` directory.
 
-## Detailed information
-### Elastre family contains
-
-* Variable font file
-* Super / Super Inktrap
-* Mega / Mega Inktrap
-* Ultra / Ultra Inktrap
-
+## Additional information
 ### Designer
 
 * Valeriy Egorov
