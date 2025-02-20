@@ -2,63 +2,31 @@ sources:
   - Elastre.glyphs
 
 axisOrder:
-    - wdth
+    - HEXP
     - INKT
 
 familyName: Elastre
 
 outputDir: ../fonts
-vfDir: $outputDir/variable
-woffDir: $outputDir/webfonts
-ttDir: $outputDir/ttf
 
-autohintTTF: true
-buildVariable: true
-buildStatic: true
-buildTTF: true
-buildOTF: false
+buildStatic: false
 
 stat:
-  Elastre[INKT,wdth].ttf:
-    - name: Width
-      tag: wdth
+  Elastre[HEXP,INKT].ttf:
+    - name: Hyper Expansion
+      tag: HEXP
       values:
         - name: Super
-          value: 100
+          value: 0
         # flags: 2
         - name: Mega
-          value: 150
+          value: 50
         - name: Ultra
-          value: 200
+          value: 100
     - name: Inktrap
       tag: INKT
       values:
-        - name: Inktrap
+        - name: Minimal
+          value: 0
+        - name: Maximal
           value: 100
-
-statFormat4:
-      - name: Super
-        location:
-          wdth: 100
-          INKT: 0
-        # flags: 2
-      - name: Super Inktrap
-        location:
-          wdth: 100
-          INKT: 100
-      - name: Mega
-        location:
-          wdth: 150
-          INKT: 0
-      - name: Mega Inktrap
-        location:
-          wdth: 150
-          INKT: 100
-      - name: Ultra
-        location:
-          wdth: 200
-          INKT: 0
-      - name: Ultra Inktrap
-        location:
-          wdth: 200
-          INKT: 100
