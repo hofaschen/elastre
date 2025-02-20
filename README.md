@@ -3,13 +3,6 @@ Elastre is a modern-looking typeface, it draws inspiration from the early 2000s 
 
 ![Showcase.](documentation/Elastre-01.png "Elastre")
 
-## Variable Font Axes
-
-Axis | Tag | Range | Default 
---- | --- | --- | --- | ---
-Inktrap | INKT | 0 to 100 | 0 
-Hyper Expansion | HEXP | 0 to 100 | 0 
-
 ## Building Elastre
 
 1. At the root of your local clone `cd path/to/local/clone`, create a virtual environment: `python3 -m venv myenv`.
@@ -21,7 +14,7 @@ Hyper Expansion | HEXP | 0 to 100 | 0
 ## Additional information
 ### Designer
 
-* Valeriy Egorov
+Valeriy Egorov
 
 ### License
 
