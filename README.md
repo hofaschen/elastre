@@ -1,5 +1,5 @@
 # Elastre Typeface
-Elastre is a modern-looking typeface, it draws inspiration from the early 2000s and the chaotic energy of electronics, evoking the futuristic designs and vibrant colors of advertisements from that era. Its unique blend of blocky and curvy elements creates a versatile aesthetic, perfect for making bold statements or adding subtle, gentle touches to your text with `wdth` and `INKT` variable axis. It doesn’t confine you — it pushes you forward, encouraging you to break free from limitations. With Elastre typeface, you can *streeeetch* the boundaries of creativity without hesitation, exploring every corner of the galaxy. Elastre has got you covered, no matter how far you aim to go.
+Elastre is a modern-looking typeface, it draws inspiration from the early 2000s and the chaotic energy of electronics, evoking the futuristic designs and vibrant colors of advertisements from that era. Its unique blend of blocky and curvy elements creates a versatile aesthetic, perfect for making bold statements or adding subtle, gentle touches to your text with `HEXP` and `INKT` variable axis. It doesn’t confine you — it pushes you forward, encouraging you to break free from limitations. With Elastre typeface, you can *streeeetch* the boundaries of creativity without hesitation, exploring every corner of the galaxy. Elastre has got you covered, no matter how far you aim to go.
 
 ![Showcase.](documentation/Elastre-01.png "Elastre")
 
@@ -13,7 +13,6 @@ Elastre is a modern-looking typeface, it draws inspiration from the early 2000s 
 
 ## Additional information
 ### Designer
-
 Valeriy Egorov
 
 ### License
