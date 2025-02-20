@@ -4,3 +4,4 @@ build.ninja
 instance_ufos
 .DS_Store
 .ninja_log
+Report.md
