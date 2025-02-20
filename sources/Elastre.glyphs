@@ -1,10 +1,15 @@
 {
-.appVersion = "3341";
+.appVersion = "3342";
 .formatVersion = 3;
+DisplayStrings = (
+"Vbðhħtt/t_t.liga",
+"djnfkejvmxahgedwgfrhfgrlewl,xcmna;'eaprtjtnerkjkqopa[d;bb,jrnekhrf
+fjgjfI f"
+);
 axes = (
 {
-name = Width;
-tag = wdth;
+name = "Hyper Expansion";
+tag = HEXP;
 },
 {
 name = Inktrap;
@@ -43,19 +48,40 @@ value = (
 {
 name = "Axis Mappings";
 value = {
-INKT = {
+HEXP = {
 0 = 0;
 100 = 100;
 };
-wdth = {
+INKT = {
+0 = 0;
 100 = 100;
-200 = 200;
 };
 };
 },
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = "eng fra deu spa ita nld por pol cze slk hun rom hrv slo ltz dan swe nor isl fin lit lav est tur aze alt";
+tag = slng;
+},
+{
+data = Cyrl;
+tag = dlng;
+},
+{
+data = "rus ukr bul bel srp mkd";
+tag = slng;
+}
+);
 }
 );
 date = "2024-07-10 14:38:38 +0000";
@@ -244,7 +270,7 @@ tag = calt;
 fontMaster = (
 {
 axesValues = (
-100,
+0,
 0
 );
 customParameters = (
@@ -268,8 +294,8 @@ value = 2106;
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 100;
+Axis = "Hyper Expansion";
+Location = 0;
 },
 {
 Axis = Inktrap;
@@ -304,7 +330,7 @@ over = -41;
 pos = -512;
 }
 );
-name = Super;
+name = "Super Minimal";
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 1;
@@ -312,7 +338,7 @@ GSExtrudeOffset = 1;
 },
 {
 axesValues = (
-200,
+100,
 0
 );
 customParameters = (
@@ -336,8 +362,8 @@ value = 2106;
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 200;
+Axis = "Hyper Expansion";
+Location = 100;
 },
 {
 Axis = Inktrap;
@@ -348,54 +374,6 @@ Location = 0;
 {
 name = winAscent;
 value = 2320;
-}
-);
-guides = (
-{
-pos = (-51,781);
-},
-{
-angle = 180;
-pos = (-64,1121);
-},
-{
-pos = (3279,824);
-},
-{
-pos = (-51,581);
-},
-{
-angle = 180;
-pos = (-164,1393);
-},
-{
-pos = (-79,1741);
-},
-{
-pos = (-79,1567);
-},
-{
-angle = 180;
-pos = (-79,-438);
-},
-{
-pos = (-79,-90);
-},
-{
-pos = (-79,-264);
-},
-{
-angle = 180;
-pos = (1249,1818);
-},
-{
-pos = (1249,2106);
-},
-{
-pos = (1249,1992);
-},
-{
-pos = (-64,1121);
 }
 );
 iconName = SemiLight_Extended;
@@ -420,11 +398,11 @@ over = -41;
 pos = -512;
 }
 );
-name = Ultra;
+name = "Ultra Minimal";
 },
 {
 axesValues = (
-100,
+0,
 100
 );
 customParameters = (
@@ -448,8 +426,8 @@ value = 2106;
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 100;
+Axis = "Hyper Expansion";
+Location = 0;
 },
 {
 Axis = Inktrap;
@@ -484,11 +462,11 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Inktrap";
+name = "Super Maximal";
 },
 {
 axesValues = (
-200,
+100,
 100
 );
 customParameters = (
@@ -512,8 +490,8 @@ value = 2106;
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 200;
+Axis = "Hyper Expansion";
+Location = 100;
 },
 {
 Axis = Inktrap;
@@ -524,50 +502,6 @@ Location = 100;
 {
 name = winAscent;
 value = 2320;
-}
-);
-guides = (
-{
-pos = (-51,781);
-},
-{
-pos = (-64,159);
-},
-{
-pos = (-51,581);
-},
-{
-angle = 180;
-pos = (-64,1121);
-},
-{
-pos = (3236,824);
-},
-{
-pos = (-79,1393);
-},
-{
-pos = (-77,1741);
-},
-{
-angle = 180;
-pos = (-79,-438);
-},
-{
-pos = (-79,-90);
-},
-{
-pos = (-79,-264);
-},
-{
-angle = 180;
-pos = (1249,1818);
-},
-{
-pos = (1249,2106);
-},
-{
-pos = (1249,1992);
 }
 );
 iconName = SemiBold_Extended;
@@ -592,7 +526,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Inktrap";
+name = "Ultra Maximal";
 }
 );
 glyphs = (
@@ -8882,7 +8816,7 @@ unicode = 222;
 glyphname = Q;
 kernLeft = O;
 kernRight = O;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:02:33 +0000";
 layers = (
 {
 anchors = (
@@ -8906,8 +8840,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(2244,0,l),
-(2244,205,l),
+(2264,0,l),
+(2264,205,l),
 (2087,205,ls),
 (2006,205,o),
 (1903,147,o),
@@ -8949,7 +8883,7 @@ nodes = (
 );
 }
 );
-width = 2324;
+width = 2304;
 },
 {
 anchors = (
@@ -8973,8 +8907,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(3370,0,l),
-(3370,205,l),
+(3420,0,l),
+(3420,205,l),
 (3213,205,ls),
 (3132,205,o),
 (3029,147,o),
@@ -9016,7 +8950,7 @@ nodes = (
 );
 }
 );
-width = 3450;
+width = 3460;
 },
 {
 anchors = (
@@ -9083,7 +9017,7 @@ nodes = (
 );
 }
 );
-width = 2344;
+width = 2304;
 },
 {
 anchors = (
@@ -9107,8 +9041,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(3370,0,l),
-(3370,205,l),
+(3420,0,l),
+(3420,205,l),
 (3369,205,ls),
 (3262,205,o),
 (3101,69,o),
@@ -9150,7 +9084,7 @@ nodes = (
 );
 }
 );
-width = 3450;
+width = 3460;
 },
 {
 associatedMasterId = m01;
@@ -9180,7 +9114,7 @@ width = 2340;
 }
 );
 metricLeft = O;
-metricRight = "=O-40";
+metricRight = "=O-80";
 unicode = 81;
 },
 {
@@ -15494,9 +15428,9 @@ unicode = 230;
 },
 {
 glyphname = b;
-kernLeft = n;
+kernLeft = h;
 kernRight = o;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:04:20 +0000";
 layers = (
 {
 anchors = (
@@ -17079,8 +17013,9 @@ unicode = 273;
 },
 {
 glyphname = eth;
+kernLeft = h;
 kernRight = n;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:05:12 +0000";
 layers = (
 {
 guides = (
@@ -18563,7 +18498,7 @@ unicode = 281;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:07:20 +0000";
 layers = (
 {
 anchors = (
@@ -19346,9 +19281,9 @@ unicode = 289;
 },
 {
 glyphname = h;
-kernLeft = n;
+kernLeft = h;
 kernRight = n;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:07:40 +0000";
 layers = (
 {
 anchors = (
@@ -19549,9 +19484,9 @@ unicode = 104;
 },
 {
 glyphname = hbar;
-kernLeft = n;
+kernLeft = h;
 kernRight = n;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:05:02 +0000";
 layers = (
 {
 layerId = m01;
@@ -20385,6 +20320,7 @@ unicode = 303;
 glyphname = j;
 kernLeft = i;
 kernRight = i;
+lastChange = "2025-02-20 15:30:42 +0000";
 layers = (
 {
 layerId = m01;
@@ -21554,7 +21490,7 @@ unicode = 311;
 glyphname = l;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:03:31 +0000";
 layers = (
 {
 anchors = (
@@ -26180,7 +26116,7 @@ unicode = 223;
 glyphname = t;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:08:27 +0000";
 layers = (
 {
 anchors = (
@@ -34603,7 +34539,7 @@ color = 9;
 glyphname = t_t.liga;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-01-25 15:44:21 +0000";
+lastChange = "2025-01-29 17:09:36 +0000";
 layers = (
 {
 anchors = (
@@ -34650,11 +34586,12 @@ shapes = (
 ref = t;
 },
 {
-pos = (1471,0);
+alignment = -1;
+pos = (1413,0);
 ref = t;
 }
 );
-width = 3044;
+width = 2986;
 },
 {
 anchors = (
@@ -34664,7 +34601,7 @@ pos = (1172,0);
 },
 {
 name = bottom_2;
-pos = (3517,0);
+pos = (3337,0);
 },
 {
 name = caret_1;
@@ -34676,7 +34613,7 @@ pos = (1172,640);
 },
 {
 name = center_2;
-pos = (3517,640);
+pos = (3337,640);
 },
 {
 name = top_1;
@@ -34684,11 +34621,11 @@ pos = (1172,1638);
 },
 {
 name = top_2;
-pos = (3517,1638);
+pos = (3337,1638);
 },
 {
 name = topright_1;
-pos = (4669,1792);
+pos = (4489,1792);
 },
 {
 name = topright_2;
@@ -34701,11 +34638,12 @@ shapes = (
 ref = t;
 },
 {
-pos = (2360,0);
+alignment = -1;
+pos = (2282,0);
 ref = t;
 }
 );
-width = 4822;
+width = 4744;
 },
 {
 anchors = (
@@ -34752,11 +34690,12 @@ shapes = (
 ref = t;
 },
 {
-pos = (1471,0);
+alignment = -1;
+pos = (1413,0);
 ref = t;
 }
 );
-width = 3044;
+width = 2986;
 },
 {
 anchors = (
@@ -34766,7 +34705,7 @@ pos = (1172,0);
 },
 {
 name = bottom_2;
-pos = (3517,0);
+pos = (3337,0);
 },
 {
 name = caret_1;
@@ -34778,7 +34717,7 @@ pos = (1172,640);
 },
 {
 name = center_2;
-pos = (3517,640);
+pos = (3337,640);
 },
 {
 name = top_1;
@@ -34786,11 +34725,11 @@ pos = (1172,1638);
 },
 {
 name = top_2;
-pos = (3517,1638);
+pos = (3337,1638);
 },
 {
 name = topright_1;
-pos = (4669,1792);
+pos = (4489,1792);
 },
 {
 name = topright_2;
@@ -34803,11 +34742,12 @@ shapes = (
 ref = t;
 },
 {
-pos = (2360,0);
+alignment = -1;
+pos = (2282,0);
 ref = t;
 }
 );
-width = 4822;
+width = 4744;
 }
 );
 metricLeft = t;
@@ -49167,8 +49107,9 @@ unicode = 1112;
 },
 {
 glyphname = "tshe-cy";
-kernLeft = n;
+kernLeft = h;
 kernRight = n;
+lastChange = "2025-01-29 17:10:25 +0000";
 layers = (
 {
 layerId = m01;
@@ -50115,9 +50056,9 @@ unicode = 1103;
 },
 {
 glyphname = "dje-cy";
-kernLeft = n;
+kernLeft = h;
 kernRight = n;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 17:10:28 +0000";
 layers = (
 {
 layerId = m01;
@@ -58117,7 +58058,7 @@ unicode = 402;
 glyphname = at;
 kernLeft = O;
 kernRight = O;
-lastChange = "2025-01-25 17:31:50 +0000";
+lastChange = "2025-01-29 15:05:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -58125,10 +58066,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(2183,-511,l),
-(2183,-311,l),
-(1308,-311,ls),
-(770,-311,o),
+(2183,-512,l),
+(2183,-312,l),
+(1308,-312,ls),
+(770,-312,o),
 (325,-2,o),
 (325,641,cs),
 (325,1284,o),
@@ -58174,8 +58115,8 @@ nodes = (
 (120,1414,o),
 (120,641,cs),
 (120,-132,o),
-(668,-511,o),
-(1308,-511,cs)
+(668,-512,o),
+(1308,-512,cs)
 );
 },
 {
@@ -58207,10 +58148,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(3005,-511,l),
-(3005,-311,l),
-(1308,-311,ls),
-(770,-311,o),
+(3005,-512,l),
+(3005,-312,l),
+(1308,-312,ls),
+(770,-312,o),
 (325,-2,o),
 (325,641,cs),
 (325,1284,o),
@@ -58256,8 +58197,8 @@ nodes = (
 (120,1414,o),
 (120,641,cs),
 (120,-132,o),
-(668,-511,o),
-(1308,-511,cs)
+(668,-512,o),
+(1308,-512,cs)
 );
 },
 {
@@ -58289,10 +58230,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(2183,-511,l),
-(2183,-311,l),
-(1308,-311,ls),
-(770,-311,o),
+(2183,-512,l),
+(2183,-312,l),
+(1308,-312,ls),
+(770,-312,o),
 (325,-2,o),
 (325,641,cs),
 (325,1284,o),
@@ -58338,8 +58279,8 @@ nodes = (
 (120,1414,o),
 (120,641,cs),
 (120,-132,o),
-(668,-511,o),
-(1308,-511,cs)
+(668,-512,o),
+(1308,-512,cs)
 );
 },
 {
@@ -58371,10 +58312,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(3005,-511,l),
-(3005,-311,l),
-(1308,-311,ls),
-(770,-311,o),
+(3005,-512,l),
+(3005,-312,l),
+(1308,-312,ls),
+(770,-312,o),
 (325,-2,o),
 (325,641,cs),
 (325,1284,o),
@@ -58420,8 +58361,8 @@ nodes = (
 (120,1414,o),
 (120,641,cs),
 (120,-132,o),
-(668,-511,o),
-(1308,-511,cs)
+(668,-512,o),
+(1308,-512,cs)
 );
 },
 {
@@ -75829,11 +75770,24 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "Elastre[INKT,wdth]";
+value = "Elastre[HEXP,INKT]";
 },
 {
 name = "Variable Font Origin";
 value = m01;
+},
+{
+name = "Axis Mappings";
+value = {
+HEXP = {
+0 = 0;
+100 = 100;
+};
+INKT = {
+0 = 0;
+100 = 100;
+};
+};
 }
 );
 name = Regular;
@@ -75841,6 +75795,66 @@ type = variable;
 },
 {
 axesValues = (
+0,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Hyper Expansion";
+Location = 0;
+},
+{
+Axis = Inktrap;
+Location = 0;
+}
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Export STAT Table";
+value = 1;
+}
+);
+name = "Super Minimal";
+},
+{
+axesValues = (
+50,
+0
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = "Hyper Expansion";
+Location = 50;
+},
+{
+Axis = Inktrap;
+Location = 0;
+}
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Export STAT Table";
+value = 1;
+}
+);
+name = "Mega Minimal";
+},
+{
+axesValues = (
 100,
 0
 );
@@ -75849,7 +75863,7 @@ customParameters = (
 name = "Axis Location";
 value = (
 {
-Axis = Width;
+Axis = "Hyper Expansion";
 Location = 100;
 },
 {
@@ -75859,75 +75873,75 @@ Location = 0;
 );
 },
 {
-name = fileName;
-value = "Elastre-Super";
+name = "Use Typo Metrics";
+value = 1;
 },
 {
-name = "Use Typo Metrics";
+name = "Export STAT Table";
 value = 1;
 }
 );
-name = Super;
+name = "Ultra Minimal";
 },
 {
 axesValues = (
-150,
-0
+0,
+100
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 150;
+Axis = "Hyper Expansion";
+Location = 0;
 },
 {
 Axis = Inktrap;
-Location = 0;
+Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Elastre-Mega";
 },
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Export STAT Table";
+value = 1;
 }
 );
-name = Mega;
+name = "Super Maximal";
 },
 {
 axesValues = (
-200,
-0
+50,
+100
 );
 customParameters = (
 {
 name = "Axis Location";
 value = (
 {
-Axis = Width;
-Location = 200;
+Axis = "Hyper Expansion";
+Location = 50;
 },
 {
 Axis = Inktrap;
-Location = 0;
+Location = 100;
 }
 );
-},
-{
-name = fileName;
-value = "Elastre-Ultra";
 },
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Export STAT Table";
+value = 1;
 }
 );
-name = Ultra;
+name = "Mega Maximal";
 },
 {
 axesValues = (
@@ -75939,7 +75953,7 @@ customParameters = (
 name = "Axis Location";
 value = (
 {
-Axis = Width;
+Axis = "Hyper Expansion";
 Location = 100;
 },
 {
@@ -75949,75 +75963,15 @@ Location = 100;
 );
 },
 {
-name = fileName;
-value = "ElastreInktrap-Super";
+name = "Use Typo Metrics";
+value = 1;
 },
 {
-name = "Use Typo Metrics";
+name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Super Inktrap";
-},
-{
-axesValues = (
-150,
-100
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 150;
-},
-{
-Axis = Inktrap;
-Location = 100;
-}
-);
-},
-{
-name = fileName;
-value = "ElastreInktrap-Mega";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-}
-);
-name = "Mega Inktrap";
-},
-{
-axesValues = (
-200,
-100
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = Width;
-Location = 200;
-},
-{
-Axis = Inktrap;
-Location = 100;
-}
-);
-},
-{
-name = fileName;
-value = "ElastreInktrap-Ultra";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-}
-);
-name = "Ultra Inktrap";
+name = "Ultra Maximal";
 }
 );
 kerningLTR = {
@@ -76053,13 +76007,11 @@ t_t.liga = -200;
 "@MMK_L_V" = {
 "@MMK_R_A" = -500;
 "@MMK_R_V" = -80;
+"@MMK_R_h" = -80;
 "@MMK_R_n" = -200;
 "@MMK_R_o" = -300;
 "@MMK_R_v" = -300;
 c = 0;
-};
-"@MMK_L_f" = {
-"@MMK_R_f" = -120;
 };
 "@MMK_L_n" = {
 "@MMK_R_i" = 0;
@@ -76067,6 +76019,7 @@ c = 0;
 "@MMK_R_v" = -50;
 };
 "@MMK_L_o" = {
+"@MMK_R_h" = -20;
 "@MMK_R_n" = -20;
 "@MMK_R_v" = -100;
 };
@@ -76265,6 +76218,9 @@ c = {
 o = -51.2;
 t = -51.2;
 };
+comma = {
+"@MMK_R_i" = 350;
+};
 "de-cy" = {
 "a-cy" = -25.6;
 "ie-cy" = -102.4;
@@ -76285,7 +76241,6 @@ braceright = 153.60001;
 bracketright = 153.60001;
 c = -102.4;
 e = -102.4;
-j = -588.79999;
 o = -102.4;
 parenright = 153.60001;
 t = -200;
@@ -76330,7 +76285,6 @@ o = -153.60001;
 q = -102.4;
 };
 l = {
-l = 51.2;
 periodcentered.loclCAT = -153.60001;
 t = 0;
 };
@@ -76376,7 +76330,6 @@ question = -307.20001;
 };
 t = {
 a = -51.2;
-t = -102.4;
 };
 "te-cy" = {
 "ie-cy" = -51.2;
@@ -76447,9 +76400,7 @@ t = -200;
 "@MMK_L_V" = {
 "@MMK_R_A" = -800;
 "@MMK_R_V" = -80;
-};
-"@MMK_L_f" = {
-"@MMK_R_f" = -200;
+"@MMK_R_h" = -80;
 };
 "@MMK_L_n" = {
 "@MMK_R_o" = -20;
@@ -76575,6 +76526,9 @@ c = {
 o = -51.2;
 t = -51.2;
 };
+comma = {
+"@MMK_R_i" = 350;
+};
 "de-cy" = {
 "a-cy" = -25.6;
 "ie-cy" = -102.4;
@@ -76594,7 +76548,6 @@ braceright = 153.60001;
 bracketright = 153.60001;
 c = -102.4;
 e = -102.4;
-j = -1356.80005;
 o = -102.4;
 parenright = 153.60001;
 };
@@ -76656,7 +76609,6 @@ question = -768;
 };
 t = {
 a = -51.2;
-t = -102.4;
 };
 "te-cy" = {
 "ie-cy" = -51.2;
@@ -76711,12 +76663,10 @@ m003 = {
 "@MMK_L_V" = {
 "@MMK_R_A" = -500;
 "@MMK_R_V" = -80;
+"@MMK_R_h" = -80;
 A = -500;
 Aacute = -500;
 Abreve = -500;
-};
-"@MMK_L_f" = {
-"@MMK_R_f" = -120;
 };
 "@MMK_L_n" = {
 "@MMK_R_o" = -20;
@@ -76919,6 +76869,9 @@ c = {
 o = -51.2;
 t = -51.2;
 };
+comma = {
+"@MMK_R_i" = 350;
+};
 "de-cy" = {
 "a-cy" = -25.6;
 "ie-cy" = -102.4;
@@ -76938,7 +76891,7 @@ braceright = 153.60001;
 bracketright = 153.60001;
 c = -102.4;
 e = -102.4;
-j = -1356.80005;
+j = 0;
 o = -102.4;
 parenright = 153.60001;
 };
@@ -77004,7 +76957,6 @@ question = -307.20001;
 };
 t = {
 a = -51.2;
-t = -102.4;
 };
 "te-cy" = {
 "ie-cy" = -51.2;
@@ -77065,9 +77017,7 @@ t = -200;
 "@MMK_L_V" = {
 "@MMK_R_A" = -800;
 "@MMK_R_V" = -80;
-};
-"@MMK_L_f" = {
-"@MMK_R_f" = -200;
+"@MMK_R_h" = -80;
 };
 "@MMK_L_n" = {
 "@MMK_R_o" = -20;
@@ -77165,6 +77115,9 @@ c = {
 o = -51.2;
 t = -51.2;
 };
+comma = {
+"@MMK_R_i" = 350;
+};
 "de-cy" = {
 "a-cy" = -25.6;
 "ie-cy" = -102.4;
@@ -77184,7 +77137,6 @@ braceright = 153.60001;
 bracketright = 153.60001;
 c = -102.4;
 e = -102.4;
-j = -1356.80005;
 o = -102.4;
 parenright = 153.60001;
 };
@@ -77253,7 +77205,6 @@ question = -768;
 };
 t = {
 a = -51.2;
-t = -102.4;
 };
 "te-cy" = {
 "ie-cy" = -51.2;
@@ -77343,6 +77294,10 @@ language = dflt;
 value = "Valeriy Egorov";
 }
 );
+},
+{
+key = vendorID;
+value = VLRY;
 }
 );
 settings = {
