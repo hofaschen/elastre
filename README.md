@@ -3,8 +3,21 @@ Elastre is a modern-looking typeface, it draws inspiration from the early 2000s 
 
 ![Showcase.](documentation/Elastre-01.png "Elastre")
 
-## Building Elastre
+## Technicalities
+Some technical information about Elastre. 
 
+### Variables
+|Name|Tag|Default|Maximum|Instances|
+|:----|:---|:-----|:------|:--------|
+|Hyper Expansion|HEXP|0|100|Super, Mega, Ultra|
+|Inktrap|INKT|0|100|Line, Inktrap|
+
+### Scripts
+* Latin
+* Cyrillic
+
+## Building Elastre
+Time to build the typeface! Follow these steps:
 1. At the root of your local clone `cd path/to/local/clone`, create a virtual environment: `python3 -m venv myenv`.
 2. Activate the virtual environment: `source myenv/bin/activate`.
 3. Install gftools (or the requirements) in the virtual environment: `pip install gftools` or `pip install -r requirements.txt`.
@@ -12,11 +25,10 @@ Elastre is a modern-looking typeface, it draws inspiration from the early 2000s 
 5. Done! You will find the fonts in the `fonts` directory.
 
 ## Additional information
-### Designer
-Valeriy Egorov
+### Designers
+* Valeriy Egorov
 
 ### License
-
-Copyright (c) 2025, Valeriy Egorov (valeriy.hfmn@gmail.com)
+Copyright (c) 2025, Valeriy Egorov (valeriy.hfmn@gmail.com).
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is in this repo OFL.txt and is also available with a FAQ at: [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL).
 
