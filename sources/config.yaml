@@ -26,7 +26,7 @@ stat:
     - name: Inktrap
       tag: INKT
       values:
-        - name: Minimal
+        - name: Line
           value: 0
-        - name: Maximal
+        - name: Inktrap
           value: 100

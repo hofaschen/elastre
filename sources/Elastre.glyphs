@@ -1,11 +1,6 @@
 {
-.appVersion = "3342";
+.appVersion = "3343";
 .formatVersion = 3;
-DisplayStrings = (
-"Vbðhħtt/t_t.liga",
-"djnfkejvmxahgedwgfrhfgrlewl,xcmna;'eaprtjtnerkjkqopa[d;bb,jrnekhrf
-fjgjfI f"
-);
 axes = (
 {
 name = "Hyper Expansion";
@@ -330,7 +325,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Minimal";
+name = "Super Line";
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 1;
@@ -398,7 +393,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Minimal";
+name = "Ultra Line";
 },
 {
 axesValues = (
@@ -462,7 +457,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Maximal";
+name = "Super Inktrap";
 },
 {
 axesValues = (
@@ -526,7 +521,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Maximal";
+name = "Ultra Inktrap";
 }
 );
 glyphs = (
@@ -75821,7 +75816,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Super Minimal";
+name = "Super Line";
 },
 {
 axesValues = (
@@ -75851,7 +75846,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Mega Minimal";
+name = "Mega Line";
 },
 {
 axesValues = (
@@ -75881,7 +75876,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Ultra Minimal";
+name = "Ultra Line";
 },
 {
 axesValues = (
@@ -75911,7 +75906,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Super Maximal";
+name = "Super Inktrap";
 },
 {
 axesValues = (
@@ -75941,7 +75936,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Mega Maximal";
+name = "Mega Inktrap";
 },
 {
 axesValues = (
@@ -75971,7 +75966,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Ultra Maximal";
+name = "Ultra Inktrap";
 }
 );
 kerningLTR = {
@@ -77256,7 +77251,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2025 The Elastre Project Authors (https://github.com/hofaschen/supermegaultra)";
+value = "Copyright 2025 The Elastre Project Authors (https://github.com/hofaschen/elastre)";
 }
 );
 },
@@ -77285,15 +77280,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "https://scripts.sil.org/OFL";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Valeriy Egorov";
-}
-);
 },
 {
 key = vendorID;
