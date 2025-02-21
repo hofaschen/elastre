@@ -18,5 +18,5 @@ Valeriy Egorov
 ### License
 
 Copyright (c) 2025, Valeriy Egorov (valeriy.hfmn@gmail.com)
-Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); you may not use this file except in compliance with the License.
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is in this repo OFL.txt and is also available with a FAQ at: [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL).
 
