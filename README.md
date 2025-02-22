@@ -7,19 +7,21 @@ Elastre is a modern-looking typeface, it draws inspiration from the early 2000s 
 Some technical information about Elastre, specifically what the typeface includes. 
 
 ### Variables
-Here's a table for a quick look. 
+Here's a table for a quick look. The `Inktrap` variable is self-explanatory: glyphs have big and noticeable ink traps; however, the `Line` variable means that glyphs have ink traps, but they are way smaller or *standard* size and less noticeable.
 |Variable|Tag|Default|Maximum|Stages|
 |:----|:---|:-----|:------|:--------|
 |Hyper Expansion|HEXP|0|100|Super, Mega, Ultra|
 |Inktrap|INKT|0|100|Line, Inktrap|
 
 And another table to understand what the end-user will see.
-| |Line|Inktrap|
-|-|:---|:------|
-|Super|Super Line| Super Inktrap|
-|Mega|Mega Line|Mega Inktrap|
-|Ultra|Ultra Line|Ultra Inktrap|
-
+|Instances|
+|:---|
+|Super Line|
+|Super Inktrap|
+|Mega Line|
+|Mega Inktrap|
+|Ultra Line|
+|Ultra Inktrap|
 
 
 ### Scripts
