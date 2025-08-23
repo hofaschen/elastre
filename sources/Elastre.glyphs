@@ -1,13 +1,16 @@
 {
-.appVersion = "3343";
+.appVersion = "3422";
 .formatVersion = 3;
+DisplayStrings = (
+"/s_t.liga/s_t.liga №№№№"
+);
 axes = (
 {
 name = "Hyper Expansion";
 tag = HEXP;
 },
 {
-name = Inktrap;
+name = "Ink Trap";
 tag = INKT;
 }
 );
@@ -293,7 +296,7 @@ Axis = "Hyper Expansion";
 Location = 0;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 0;
 }
 );
@@ -325,7 +328,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Line";
+name = Super;
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 1;
@@ -361,7 +364,7 @@ Axis = "Hyper Expansion";
 Location = 100;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 0;
 }
 );
@@ -393,7 +396,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Line";
+name = Ultra;
 },
 {
 axesValues = (
@@ -425,7 +428,7 @@ Axis = "Hyper Expansion";
 Location = 0;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 100;
 }
 );
@@ -457,7 +460,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Inktrap";
+name = "Super Ink";
 },
 {
 axesValues = (
@@ -489,7 +492,7 @@ Axis = "Hyper Expansion";
 Location = 100;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 100;
 }
 );
@@ -521,7 +524,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Inktrap";
+name = "Ultra Ink";
 }
 );
 glyphs = (
@@ -13411,6 +13414,7 @@ color = 9;
 glyphname = T_h.liga;
 kernLeft = T;
 kernRight = n;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -13450,6 +13454,9 @@ ref = T;
 },
 {
 alignment = -1;
+attr = {
+identifier = 1C0FBD5C;
+};
 pos = (1533,0);
 ref = h;
 }
@@ -13494,6 +13501,9 @@ ref = T;
 },
 {
 alignment = -1;
+attr = {
+identifier = 0058F53B;
+};
 pos = (2660,0);
 ref = h;
 }
@@ -13538,6 +13548,9 @@ ref = T;
 },
 {
 alignment = -1;
+attr = {
+identifier = 8E6C125D;
+};
 pos = (1533,0);
 ref = h;
 }
@@ -13582,6 +13595,9 @@ ref = T;
 },
 {
 alignment = -1;
+attr = {
+identifier = 9F6CC69C;
+};
 pos = (2660,0);
 ref = h;
 }
@@ -13597,6 +13613,7 @@ color = 9;
 glyphname = Tcaron_h.liga;
 kernLeft = T;
 kernRight = n;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -13609,6 +13626,9 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E2805768;
+};
 pos = (1533,0);
 ref = h;
 },
@@ -13633,6 +13653,9 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 7462EFC4;
+};
 pos = (1533,0);
 ref = h;
 },
@@ -13657,6 +13680,9 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = DDCCCF5F;
+};
 pos = (2660,0);
 ref = h;
 },
@@ -13681,6 +13707,9 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = F264B29D;
+};
 pos = (2660,0);
 ref = h;
 },
@@ -13703,6 +13732,7 @@ color = 9;
 glyphname = Tcommaaccent_h.liga;
 kernLeft = T;
 kernRight = n;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -13715,6 +13745,9 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = B90C6804;
+};
 pos = (1533,0);
 ref = h;
 },
@@ -13739,6 +13772,9 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 474E2FBD;
+};
 pos = (1533,0);
 ref = h;
 },
@@ -13763,6 +13799,9 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 54AC8A6E;
+};
 pos = (2660,0);
 ref = h;
 },
@@ -13787,6 +13826,9 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = FBAA72A1;
+};
 pos = (2660,0);
 ref = h;
 },
@@ -34220,6 +34262,7 @@ color = 9;
 glyphname = f_i.liga;
 kernLeft = f;
 kernRight = i;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -34248,10 +34291,16 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 5418F4D6;
+};
 ref = f;
 },
 {
 alignment = -1;
+attr = {
+identifier = D2B08B45;
+};
 pos = (1149,0);
 ref = idotless;
 }
@@ -34285,10 +34334,16 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = CCD19272;
+};
 ref = f;
 },
 {
 alignment = -1;
+attr = {
+identifier = "28702678";
+};
 pos = (2036,0);
 ref = idotless;
 }
@@ -34322,10 +34377,16 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = C19CB7B0;
+};
 ref = f;
 },
 {
 alignment = -1;
+attr = {
+identifier = 3E6CA598;
+};
 pos = (1148,0);
 ref = idotless;
 }
@@ -34359,10 +34420,16 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = F770BC5C;
+};
 ref = f;
 },
 {
 alignment = -1;
+attr = {
+identifier = 839C2F51;
+};
 pos = (2036,0);
 ref = idotless;
 }
@@ -34378,6 +34445,7 @@ color = 9;
 glyphname = s_t.liga;
 kernLeft = o;
 kernRight = f;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -34406,10 +34474,16 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 13765FB3;
+};
 ref = s;
 },
 {
 alignment = -1;
+attr = {
+identifier = A27D5B99;
+};
 pos = (1577,0);
 ref = t;
 }
@@ -34443,9 +34517,16 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 0C70E70D;
+};
 ref = s;
 },
 {
+alignment = -1;
+attr = {
+identifier = D2C55439;
+};
 pos = (2703,0);
 ref = t;
 }
@@ -34479,10 +34560,16 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 8F48F8BD;
+};
 ref = s;
 },
 {
 alignment = -1;
+attr = {
+identifier = D9519353;
+};
 pos = (1577,0);
 ref = t;
 }
@@ -34516,9 +34603,16 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 6D0A2331;
+};
 ref = s;
 },
 {
+alignment = -1;
+attr = {
+identifier = 598CACAD;
+};
 pos = (2703,0);
 ref = t;
 }
@@ -34534,7 +34628,7 @@ color = 9;
 glyphname = t_t.liga;
 kernLeft = f;
 kernRight = f;
-lastChange = "2025-01-29 17:09:36 +0000";
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 anchors = (
@@ -34582,6 +34676,9 @@ ref = t;
 },
 {
 alignment = -1;
+attr = {
+identifier = EFAE4E93;
+};
 pos = (1413,0);
 ref = t;
 }
@@ -34634,6 +34731,9 @@ ref = t;
 },
 {
 alignment = -1;
+attr = {
+identifier = 3A829491;
+};
 pos = (2282,0);
 ref = t;
 }
@@ -34686,6 +34786,9 @@ ref = t;
 },
 {
 alignment = -1;
+attr = {
+identifier = 8742F5CC;
+};
 pos = (1413,0);
 ref = t;
 }
@@ -34738,6 +34841,9 @@ ref = t;
 },
 {
 alignment = -1;
+attr = {
+identifier = 47CC4593;
+};
 pos = (2282,0);
 ref = t;
 }
@@ -47473,6 +47579,7 @@ unicode = 1097;
 glyphname = "dzhe-cy";
 kernLeft = n;
 kernRight = n;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -47485,6 +47592,9 @@ scale = (1,-1);
 },
 {
 alignment = -1;
+attr = {
+identifier = 5B10E300;
+};
 pos = (653,0);
 ref = cedillacomb;
 }
@@ -47502,6 +47612,9 @@ scale = (1,-1);
 },
 {
 alignment = -1;
+attr = {
+identifier = C79BEB01;
+};
 pos = (1216,0);
 ref = cedillacomb;
 }
@@ -47519,6 +47632,9 @@ scale = (1,-1);
 },
 {
 alignment = -1;
+attr = {
+identifier = 6AE4F1D0;
+};
 pos = (653,0);
 ref = cedillacomb;
 }
@@ -47536,6 +47652,9 @@ scale = (1,-1);
 },
 {
 alignment = -1;
+attr = {
+identifier = 2E24161F;
+};
 pos = (1216,0);
 ref = cedillacomb;
 }
@@ -50578,6 +50697,7 @@ metricRight = "=yi-cy";
 glyphname = zero;
 kernLeft = O;
 kernRight = O;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 guides = (
@@ -50600,10 +50720,16 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 8D85D699;
+};
 ref = O;
 },
 {
 alignment = -1;
+attr = {
+identifier = 23B821A1;
+};
 ref = _slash.zero;
 }
 );
@@ -50627,6 +50753,9 @@ ref = O;
 },
 {
 alignment = -1;
+attr = {
+identifier = 9FBF39E2;
+};
 ref = _slash.zero;
 }
 );
@@ -50647,10 +50776,16 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 69A0434B;
+};
 ref = O;
 },
 {
 alignment = -1;
+attr = {
+identifier = 5215A484;
+};
 ref = _slash.zero;
 }
 );
@@ -50681,6 +50816,9 @@ ref = O;
 },
 {
 alignment = -1;
+attr = {
+identifier = BC7B6E67;
+};
 ref = _slash.zero;
 }
 );
@@ -57089,6 +57227,7 @@ unicode = 8222;
 {
 color = 3;
 glyphname = quotedblleft;
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 layerId = m01;
@@ -57096,6 +57235,9 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
+attr = {
+identifier = 1BEAEA58;
+};
 pos = (820,1439);
 ref = quotedblbase;
 }
@@ -57108,6 +57250,9 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
+attr = {
+identifier = C9AD6C29;
+};
 pos = (820,1439);
 ref = quotedblbase;
 }
@@ -57120,6 +57265,9 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
+attr = {
+identifier = DAE86CCB;
+};
 pos = (820,1439);
 ref = quotedblbase;
 }
@@ -57132,6 +57280,9 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
+attr = {
+identifier = B5554358;
+};
 pos = (820,1439);
 ref = quotedblbase;
 }
@@ -61176,7 +61327,7 @@ unicode = 8225;
 },
 {
 glyphname = numero;
-lastChange = "2025-01-24 12:55:16 +0000";
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 guides = (
@@ -61189,13 +61340,24 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = EADE5647;
+};
 ref = N;
 },
 {
+alignment = -1;
+attr = {
+identifier = 1AEBF39B;
+};
 pos = (2144,251);
 ref = underscore;
 },
 {
+alignment = -1;
+attr = {
+identifier = 25A6E682;
+};
 pos = (2144,0);
 ref = _o.numero;
 }
@@ -61213,13 +61375,24 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = BCA0C5F1;
+};
 ref = N;
 },
 {
+alignment = -1;
+attr = {
+identifier = 8C45419C;
+};
 pos = (3270,251);
 ref = underscore;
 },
 {
+alignment = -1;
+attr = {
+identifier = B9B07F41;
+};
 pos = (3270,0);
 ref = _o.numero;
 }
@@ -61241,13 +61414,24 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E56AA320;
+};
 ref = N;
 },
 {
+alignment = -1;
+attr = {
+identifier = 77C1E66B;
+};
 pos = (2144,251);
 ref = underscore;
 },
 {
+alignment = -1;
+attr = {
+identifier = 4092A95E;
+};
 pos = (2144,1);
 ref = _o.numero;
 }
@@ -61269,13 +61453,24 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 1A79C178;
+};
 ref = N;
 },
 {
+alignment = -1;
+attr = {
+identifier = 84F9BC90;
+};
 pos = (3270,251);
 ref = underscore;
 },
 {
+alignment = -1;
+attr = {
+identifier = 1B10EC1C;
+};
 pos = (3270,0);
 ref = _o.numero;
 }
@@ -64278,13 +64473,16 @@ unicode = 94;
 },
 {
 glyphname = percent;
-lastChange = "2025-01-24 12:55:50 +0000";
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = AF53855C;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64294,6 +64492,9 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = C79EF567;
+};
 pos = (1293,-492);
 ref = _o.numero;
 }
@@ -64305,6 +64506,9 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 30F3C918;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64314,6 +64518,9 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = 46C0ACE2;
+};
 pos = (1812,-492);
 ref = _o.numero;
 }
@@ -64325,6 +64532,9 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 190FE761;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64334,6 +64544,9 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = 3C552EA1;
+};
 pos = (1293,-492);
 ref = _o.numero;
 }
@@ -64345,6 +64558,9 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = E5D41D82;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64354,6 +64570,9 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = B2CC938C;
+};
 pos = (1812,-492);
 ref = _o.numero;
 }
@@ -64367,13 +64586,16 @@ unicode = 37;
 },
 {
 glyphname = perthousand;
-lastChange = "2025-01-24 12:55:54 +0000";
+lastChange = "2025-08-23 07:09:41 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 3006870F;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64383,11 +64605,17 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = F2CBF18A;
+};
 pos = (1293,-492);
 ref = _o.numero;
 },
 {
 alignment = -1;
+attr = {
+identifier = E4201CCE;
+};
 pos = (2591,-492);
 ref = _o.numero;
 }
@@ -64399,6 +64627,9 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 127BDD96;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64408,11 +64639,17 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = 143B34E1;
+};
 pos = (1812,-492);
 ref = _o.numero;
 },
 {
 alignment = -1;
+attr = {
+identifier = 041B2F9A;
+};
 pos = (3630,-492);
 ref = _o.numero;
 }
@@ -64424,6 +64661,9 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 84E9773B;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64433,11 +64673,17 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = 3852395A;
+};
 pos = (1293,-492);
 ref = _o.numero;
 },
 {
 alignment = -1;
+attr = {
+identifier = 235B5420;
+};
 pos = (2591,-492);
 ref = _o.numero;
 }
@@ -64449,6 +64695,9 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
+attr = {
+identifier = 76CCC89E;
+};
 pos = (0,512);
 ref = _o.numero;
 },
@@ -64458,11 +64707,17 @@ ref = slash;
 },
 {
 alignment = -1;
+attr = {
+identifier = 722AC8B2;
+};
 pos = (1812,-492);
 ref = _o.numero;
 },
 {
 alignment = -1;
+attr = {
+identifier = 98B64781;
+};
 pos = (3630,-492);
 ref = _o.numero;
 }
@@ -75802,7 +76057,7 @@ Axis = "Hyper Expansion";
 Location = 0;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 0;
 }
 );
@@ -75816,7 +76071,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Super Line";
+name = Super;
 },
 {
 axesValues = (
@@ -75832,7 +76087,7 @@ Axis = "Hyper Expansion";
 Location = 50;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 0;
 }
 );
@@ -75846,7 +76101,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Mega Line";
+name = Mega;
 },
 {
 axesValues = (
@@ -75862,7 +76117,7 @@ Axis = "Hyper Expansion";
 Location = 100;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 0;
 }
 );
@@ -75876,7 +76131,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Ultra Line";
+name = Ultra;
 },
 {
 axesValues = (
@@ -75892,7 +76147,7 @@ Axis = "Hyper Expansion";
 Location = 0;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 100;
 }
 );
@@ -75906,7 +76161,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Super Inktrap";
+name = "Super Ink";
 },
 {
 axesValues = (
@@ -75922,7 +76177,7 @@ Axis = "Hyper Expansion";
 Location = 50;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 100;
 }
 );
@@ -75936,7 +76191,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Mega Inktrap";
+name = "Mega Ink";
 },
 {
 axesValues = (
@@ -75952,7 +76207,7 @@ Axis = "Hyper Expansion";
 Location = 100;
 },
 {
-Axis = Inktrap;
+Axis = "Ink Trap";
 Location = 100;
 }
 );
@@ -75966,7 +76221,7 @@ name = "Export STAT Table";
 value = 1;
 }
 );
-name = "Ultra Inktrap";
+name = "Ultra Ink";
 }
 );
 kerningLTR = {

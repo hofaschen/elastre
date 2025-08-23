@@ -23,10 +23,10 @@ stat:
           value: 50
         - name: Ultra
           value: 100
-    - name: Inktrap
+    - name: Ink Trap
       tag: INKT
       values:
-        - name: Line
+        - name: Regular
           value: 0
         - name: Inktrap
           value: 100
