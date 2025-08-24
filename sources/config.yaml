@@ -2,7 +2,7 @@ sources:
   - Elastre.glyphs
 
 axisOrder:
-    - HEXP
+    - wdth
     - INKT
 
 familyName: Elastre
@@ -12,13 +12,13 @@ outputDir: ../fonts
 buildStatic: false
 
 stat:
-  Elastre[HEXP,INKT].ttf:
-    - name: Hyper Expansion
-      tag: HEXP
+  Elastre[INKT,wdth].ttf:
+    - name: Width
+      tag: wdth
       values:
         - name: Super
           value: 0
-        # flags: 2
+          flags: 2
         - name: Mega
           value: 50
         - name: Ultra
@@ -26,7 +26,8 @@ stat:
     - name: Ink Trap
       tag: INKT
       values:
-        - name: Regular
+        - name: Default
           value: 0
-        - name: Inktrap
+          flags: 2
+        - name: Ink
           value: 100

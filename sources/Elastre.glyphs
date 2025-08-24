@@ -6,8 +6,8 @@ DisplayStrings = (
 );
 axes = (
 {
-name = "Hyper Expansion";
-tag = HEXP;
+name = Width;
+tag = wdth;
 },
 {
 name = "Ink Trap";
@@ -31,34 +31,9 @@ name = CYR_descender_right;
 );
 customParameters = (
 {
-name = "Enforce Compatibility Check";
-value = 1;
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = "Axis Mappings";
-value = {
-HEXP = {
-0 = 0;
-100 = 100;
-};
-INKT = {
-0 = 0;
-100 = 100;
-};
-};
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 },
 {
 name = "meta Table";
@@ -268,7 +243,7 @@ tag = calt;
 fontMaster = (
 {
 axesValues = (
-0,
+100,
 0
 );
 customParameters = (
@@ -287,19 +262,6 @@ value = 2106;
 {
 name = hheaAscender;
 value = 2106;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 0;
-},
-{
-Axis = "Ink Trap";
-Location = 0;
-}
-);
 },
 {
 name = winAscent;
@@ -336,7 +298,7 @@ GSExtrudeOffset = 1;
 },
 {
 axesValues = (
-100,
+200,
 0
 );
 customParameters = (
@@ -355,19 +317,6 @@ value = 2106;
 {
 name = hheaAscender;
 value = 2106;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 100;
-},
-{
-Axis = "Ink Trap";
-Location = 0;
-}
-);
 },
 {
 name = winAscent;
@@ -400,7 +349,7 @@ name = Ultra;
 },
 {
 axesValues = (
-0,
+100,
 100
 );
 customParameters = (
@@ -419,19 +368,6 @@ value = 2106;
 {
 name = hheaAscender;
 value = 2106;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 0;
-},
-{
-Axis = "Ink Trap";
-Location = 100;
-}
-);
 },
 {
 name = winAscent;
@@ -464,7 +400,7 @@ name = "Super Ink";
 },
 {
 axesValues = (
-100,
+200,
 100
 );
 customParameters = (
@@ -483,19 +419,6 @@ value = 2106;
 {
 name = hheaAscender;
 value = 2106;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 100;
-},
-{
-Axis = "Ink Trap";
-Location = 100;
-}
-);
 },
 {
 name = winAscent;
@@ -76020,7 +75943,7 @@ instances = (
 customParameters = (
 {
 name = fileName;
-value = "Elastre[HEXP,INKT]";
+value = "Elastre[INKT,wdth]";
 },
 {
 name = "Variable Font Origin";
@@ -76029,199 +75952,317 @@ value = m01;
 {
 name = "Axis Mappings";
 value = {
-HEXP = {
-0 = 0;
-100 = 100;
-};
 INKT = {
 0 = 0;
+50 = 50;
 100 = 100;
 };
+wdth = {
+100 = 100;
+150 = 150;
+200 = 200;
 };
+};
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
-name = Regular;
+name = Variable;
 type = variable;
 },
 {
 axesValues = (
-0,
+100,
 0
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 0;
-},
-{
-Axis = "Ink Trap";
-Location = 0;
-}
-);
-},
 {
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Export STAT Table";
-value = 1;
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Regular";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Regular";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-Regular";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-Regular";
 }
 );
 name = Super;
 },
 {
 axesValues = (
-50,
+150,
 0
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 50;
-},
-{
-Axis = "Ink Trap";
-Location = 0;
-}
-);
-},
 {
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Export STAT Table";
-value = 1;
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Mega";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Mega";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-Mega";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-Mega";
 }
 );
 name = Mega;
+widthClass = 7;
+},
+{
+axesValues = (
+200,
+0
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Ultra";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Ultra";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-Ultra";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-Ultra";
+}
+);
+name = Ultra;
+widthClass = 9;
 },
 {
 axesValues = (
 100,
-0
-);
-customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 100;
-},
-{
-Axis = "Ink Trap";
-Location = 0;
-}
-);
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Export STAT Table";
-value = 1;
-}
-);
-name = Ultra;
-},
-{
-axesValues = (
-0,
 100
 );
 customParameters = (
 {
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 0;
-},
-{
-Axis = "Ink Trap";
-Location = 100;
-}
-);
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Export STAT Table";
-value = 1;
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-Ink";
 }
 );
 name = "Super Ink";
 },
 {
 axesValues = (
-50,
+150,
 100
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 50;
-},
-{
-Axis = "Ink Trap";
-Location = 100;
-}
-);
-},
 {
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Export STAT Table";
-value = 1;
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Mega Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Mega Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-MegaInk";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-MegaInk";
 }
 );
 name = "Mega Ink";
+widthClass = 7;
 },
 {
 axesValues = (
-100,
+200,
 100
 );
 customParameters = (
-{
-name = "Axis Location";
-value = (
-{
-Axis = "Hyper Expansion";
-Location = 100;
-},
-{
-Axis = "Ink Trap";
-Location = 100;
-}
-);
-},
 {
 name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = "Export STAT Table";
-value = 1;
+disabled = 1;
+name = "Name Table Entry";
+value = "1 1; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "1 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 1; Ultra Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "2 3 1 1033; Ultra Ink";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "4 3 1 1033; Elastre";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 1; Elastre-UltraInk";
+},
+{
+disabled = 1;
+name = "Name Table Entry";
+value = "6 3 1 1033; Elastre-UltraInk";
 }
 );
 name = "Ultra Ink";
+widthClass = 9;
 }
 );
 kerningLTR = {
