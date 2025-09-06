@@ -17,17 +17,17 @@ stat:
       tag: wdth
       values:
         - name: Super
-          value: 0
+          value: 100
           flags: 2
         - name: Mega
-          value: 50
+          value: 150
         - name: Ultra
-          value: 100
+          value: 200
     - name: Ink Trap
       tag: INKT
       values:
-        - name: Default
+        - name: Neutral
           value: 0
           flags: 2
-        - name: Ink
+        - name: Expressive
           value: 100

@@ -290,7 +290,7 @@ over = -41;
 pos = -512;
 }
 );
-name = Super;
+name = "Super Neutral";
 userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 1;
@@ -345,7 +345,7 @@ over = -41;
 pos = -512;
 }
 );
-name = Ultra;
+name = "Ultra Neutral";
 },
 {
 axesValues = (
@@ -396,7 +396,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Super Ink";
+name = "Super Expressive";
 },
 {
 axesValues = (
@@ -447,7 +447,7 @@ over = -41;
 pos = -512;
 }
 );
-name = "Ultra Ink";
+name = "Ultra Expressive";
 }
 );
 glyphs = (
@@ -75969,7 +75969,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-name = Variable;
+name = Regular;
 type = variable;
 },
 {
@@ -75981,44 +75981,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Regular";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Regular";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-Regular";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-Regular";
 }
 );
-name = Super;
+name = "Super Neutral";
 },
 {
 axesValues = (
@@ -76029,44 +75994,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Mega";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Mega";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-Mega";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-Mega";
 }
 );
-name = Mega;
+name = "Mega Neutral";
 widthClass = 7;
 },
 {
@@ -76078,44 +76008,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Ultra";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Ultra";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-Ultra";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-Ultra";
 }
 );
-name = Ultra;
+name = "Ultra Neutral";
 widthClass = 9;
 },
 {
@@ -76127,44 +76022,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-Ink";
 }
 );
-name = "Super Ink";
+name = "Super Expressive";
 },
 {
 axesValues = (
@@ -76175,44 +76035,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Mega Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Mega Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-MegaInk";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-MegaInk";
 }
 );
-name = "Mega Ink";
+name = "Mega Expressive";
 widthClass = 7;
 },
 {
@@ -76224,44 +76049,9 @@ customParameters = (
 {
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 1; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "1 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 1; Ultra Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "2 3 1 1033; Ultra Ink";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "4 3 1 1033; Elastre";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 1; Elastre-UltraInk";
-},
-{
-disabled = 1;
-name = "Name Table Entry";
-value = "6 3 1 1033; Elastre-UltraInk";
 }
 );
-name = "Ultra Ink";
+name = "Ultra Expressive";
 widthClass = 9;
 }
 );
