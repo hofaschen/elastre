@@ -11,6 +11,7 @@ on:
       - main
     paths:
       - sources/**
+  workflow_dispatch:
 
 jobs:
   font-ci-job:
