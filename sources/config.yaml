@@ -30,4 +30,4 @@ stat:
           value: 0
           flags: 2
         - name: Expressive
-          value: 100
+          value: 1
