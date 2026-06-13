@@ -10,6 +10,7 @@ Elastre is a display typeface inspired by the early 2000s and the chaotic energy
 * Mega Expressive
 * Ultra
 * Ultra Expressive
+
 ![Showcase.](documentation/Elastre-02.png)
 
 ### Scripts
