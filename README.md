@@ -2,6 +2,7 @@
 Elastre is a display typeface inspired by the early 2000s and the chaotic energy of imagining the future. It channels the futuristic design and dynamic nature of that era. It blends blocky and curvy elements into a versatile typeface, perfect for bold statements or expressive details. With Elastre typeface, you can *streeeetch* the boundaries of creativity and explore every corner of the galaxy — no matter how far you aim to go.
 
 ![Showcase.](documentation/Elastre-01.png "Elastre")
+![Showcase.](documentation/Elastre Preview 2.png "Elastre Styles")
 
 ### Scripts
 * Latin
