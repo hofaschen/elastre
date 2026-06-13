@@ -4,6 +4,8 @@ Elastre is a display typeface inspired by the early 2000s and the chaotic energy
 ![Showcase.](documentation/Elastre-01.png "Elastre")
 ![Showcase.](documentation/Elastre Preview 2.png "Elastre Styles")
 
+![Showcase.](documentation/Elastre Preview 2.png)
+
 ### Scripts
 * Latin
 * Cyrillic
